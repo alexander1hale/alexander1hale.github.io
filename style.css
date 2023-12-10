@@ -29,20 +29,21 @@ h1{
     left: 50%;
     transform: translate(-50%,10px);
     z-index: 1;
-    max-width: 300px;
+    max-width: 160px;
     height: auto;
 }
 .background{
     position: absolute;
-    height: 100vh;
+    height: 175vh;
     width:100.3%;
     max-height: 800px;
     transform: translate(-2%,-2%);
+    filter: blur(3px);
 }
 .cost{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,40%);
+    transform: translate(-50%,200%);
     z-index: 1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -50,7 +51,7 @@ h1{
 a{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,110%);
     z-index: 1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -63,7 +64,7 @@ a{
     width: 100%;
     z-index: 1;
     backdrop-filter: blur(10px);
-    transform: translate(-2%,-2%);
+    transform: translate(-2%,240%);
     border-radius: 20px;
 }
 @media (min-width:480px)and (min-height:500px) {
@@ -118,19 +119,19 @@ a{
         width: 101.1%;
     }
     .cost{
-        transform: translate(-50%,135px);
+        transform: translate(-50%,105px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,135px);
+        transform: translate(-50%,105px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1%,155px);
+        transform: translate(-1%,125px);
         font-size: small;
     }
 }
-@media (min-width:801px)and (min-height:650px) {
+@media (min-width:801px)and (min-height:590px) {
     h1{
         font-size: x-large
 }
@@ -156,7 +157,7 @@ a{
         font-size: xx-large;
     }
     .p2{
-        transform: translate(-1%,170px);
+        transform: translate(-1%,130px);
         font-size: small;
     }
 }
@@ -170,6 +171,7 @@ a{
     .protein{
         height: 48%;
         width: 20%;
+        max-width: 230px;
         transform: translate(-50%,8%);
     }
     .background{

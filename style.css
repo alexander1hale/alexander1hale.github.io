@@ -148,11 +148,11 @@ a{
         height: 100.7%;
     }
     .cost{
-        transform: translate(-50%,140px);
+        transform: translate(-50%,100px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,140px);
+        transform: translate(-50%,100px);
         font-size: xx-large;
     }
     .p2{

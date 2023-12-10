@@ -130,7 +130,7 @@ a{
         font-size: small;
     }
 }
-@media (min-width:801px)and (min-height:590px) {
+@media (min-width:801px)and (min-height:650px) {
     h1{
         font-size: x-large
 }

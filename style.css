@@ -148,15 +148,15 @@ a{
         height: 100.7%;
     }
     .cost{
-        transform: translate(-50%,180px);
+        transform: translate(-50%,140px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,180px);
+        transform: translate(-50%,140px);
         font-size: xx-large;
     }
     .p2{
-        transform: translate(-1%,210px);
+        transform: translate(-1%,170px);
         font-size: small;
     }
 }

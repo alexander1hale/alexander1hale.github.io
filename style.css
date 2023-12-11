@@ -1,25 +1,25 @@
 h1{
     position: absolute;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 150%;
     top: 0%;
     left: 50%;
     transform: translate(-50%, -20%);
     z-index: 1;
-    backdrop-filter: blur(10px);
     white-space: nowrap;
     border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 .p1{
     position: absolute;
-    top: 12%;
-    font-size: 65%;
+    top: 10%;
+    font-size: 75%;
     text-align: center;
     width: 100%;
     z-index: 1;
-    backdrop-filter: blur(10px);
-    transform: translate(-2%,-20%);
+    transform: translate(-2%,-30%);
     white-space: nowrap;
+    backdrop-filter: blur(10px);
     border-radius: 20px;
 }
 .protein{
@@ -27,14 +27,14 @@ h1{
     width: 35%;
     top: 22%;
     left: 50%;
-    transform: translate(-50%,10px);
+    transform: translate(-50%,20px);
     z-index: 1;
     max-width: 160px;
     height: auto;
 }
 .background{
     position: absolute;
-    min-height:100%;
+    min-height: 100%;
     width:100.3%;
     transform: translate(-2%,-2%);
     filter: blur(3px);
@@ -42,7 +42,7 @@ h1{
 .cost{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,360%);
+    transform: translate(-50%,600%);
     z-index: 1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -50,7 +50,7 @@ h1{
 a{
     position: absolute;
     left: 50%;
-    transform: translate(-50%,275%);
+    transform: translate(-50%,515%);
     z-index: 1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -63,7 +63,7 @@ a{
     width: 100%;
     z-index: 1;
     backdrop-filter: blur(10px);
-    transform: translate(-2%,490%);
+    transform: translate(-2%,830%);
     border-radius: 20px;
 }
 @media (min-width:480px)and (min-height:500px) {

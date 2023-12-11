@@ -34,7 +34,7 @@ h1{
 }
 .background{
     position: absolute;
-    min-height:100%
+    min-height:100%;
     width:100.3%;
     transform: translate(-2%,-2%);
     filter: blur(3px);

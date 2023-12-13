@@ -66,6 +66,16 @@ a{
     transform: translate(-2%,830%);
     border-radius: 20px;
 }
+@supports (-webkit-touch-callout: none) {
+  .cost{
+      transform:translate(-50%,550px);
+}
+    a{
+        transform:translate(-50%,550px);
+}
+    .p2{
+        transform:translate(-1.5%,550px);
+}
 @media (max-width:480px) {
     h1{
         font-size: x-large;

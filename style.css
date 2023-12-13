@@ -85,15 +85,15 @@ a{
         width: 100.3%;
     }
     .cost{
-        transform: translate(-50%,200px);
+        transform: translate(-50%,550px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,200px);
+        transform: translate(-50%,550px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1.5%,200px);
+        transform: translate(-1.5%,550px);
         font-size: small;
     }
 }

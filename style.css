@@ -17,7 +17,7 @@ h1{
     text-align: center;
     width: 100%;
     z-index: 1;
-    transform: translate(-2%,-30%);
+    transform: translate(-2%,-0%);
     white-space: nowrap;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -66,17 +66,48 @@ a{
     transform: translate(-2%,830%);
     border-radius: 20px;
 }
+@media (max-width:320px) {
+    h1{
+        font-size: x-large;
+        transform: translate(-30%);
+    }
+    .p1{
+        font-size: small;
+        transform: translate(-1.5%,3%);
+    }
+    .protein{
+        transform: translate(-50%,0%);
+        width: 155px;
+        height: auto;
+        max-height: 290px;
+    }
+    .background{
+        width: 100.3%;
+    }
+    .cost{
+        transform: translate(-50%,200px);
+        font-size: x-large;
+    }
+    a{
+        transform: translate(-50%,200px);
+        font-size: x-large;
+    }
+    .p2{
+        transform: translate(-1.5%,200px);
+        font-size: small;
+    }
+}
 @media (min-width:480px)and (min-height:500px) {
     h1{
         font-size: x-large;
         transform: translate(-50%,-10%);
     }
     .p1{
-        font-size: x-small;
-        transform: translate(-1.5%,0%);
+        font-size: small;
+        transform: translate(-1.5%,3%);
     }
     .protein{
-        transform: translate(-50%,8%);
+        transform: translate(-50%,18%);
         width: 155px;
         height:auto;
         max-height: 290px;

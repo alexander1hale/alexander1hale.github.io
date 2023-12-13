@@ -69,7 +69,7 @@ a{
 @media (max-width:480px) {
     h1{
         font-size: x-large;
-        transform: translate(-30%);
+        transform: translate(-50%,-30%);
     }
     .p1{
         font-size: small;

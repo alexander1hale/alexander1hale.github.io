@@ -73,11 +73,11 @@ a{
         transform: translate(-50%,-30%);
     }
     .p1{
-        font-size: small;
+        font-size: x-small;
         transform: translate(-1.5%,3%);
     }
     .protein{
-        transform: translate(-50%,0%);
+        transform: translate(-50%,20%);
         width: 155px;
         height: auto;
         max-height: 290px;

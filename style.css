@@ -21,6 +21,7 @@ h1{
     white-space: nowrap;
     backdrop-filter: blur(10px);
     border-radius: 20px;
+    max-width:100%;
 }
 .protein{
     position: absolute;
@@ -35,7 +36,7 @@ h1{
 .background{
     position: absolute;
     min-height: 100%;
-    width:100.3%;
+    min-width:100%;
     transform: translate(-2%,-2%);
     filter: blur(3px);
 }
@@ -81,19 +82,16 @@ a{
         height: auto;
         max-height: 290px;
     }
-    .background{
-        width: 100.3%;
-    }
     .cost{
-        transform: translate(-50%,550px);
+        transform: translate(-50%,250px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,550px);
+        transform: translate(-50%,250px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1.5%,550px);
+        transform: translate(-1.5%,280px);
         font-size: small;
     }
 }
@@ -111,10 +109,6 @@ a{
         width: 155px;
         height:auto;
         max-height: 290px;
-    }
-    .background{
-        height: 100.5%;
-        width: 100.82%;
     }
     .cost{
         transform: translate(-50%,90px);
@@ -144,20 +138,16 @@ a{
         max-height: 310px;
         transform: translate(-50%,8%);
     }
-    .background{
-        height: 100.5%;
-        width: 101.1%;
-    }
     .cost{
-        transform: translate(-50%,105px);
+        transform: translate(-50%,165px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,105px);
+        transform: translate(-50%,165px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1%,125px);
+        transform: translate(-1%,185px);
         font-size: small;
     }
 }
@@ -173,10 +163,6 @@ a{
         transform: translate(-50%,8%);
         height: auto;
         width: 21%;
-    }
-    .background{
-        width: 101.2%;
-        height: 100.7%;
     }
     .cost{
         transform: translate(-50%,100px);
@@ -203,10 +189,6 @@ a{
         width: 20%;
         max-width: 230px;
         transform: translate(-50%,8%);
-    }
-    .background{
-        width: 101.2%;
-        height: 100.9%;
     }
     .cost{
         transform: translate(-50%,250px);

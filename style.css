@@ -21,7 +21,7 @@ h1{
     white-space: nowrap;
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    max-width:100%;
+    word-wrap: break-word;
 }
 .protein{
     position: absolute;
@@ -82,16 +82,19 @@ a{
         height: auto;
         max-height: 290px;
     }
+    .background{
+        width:100%
+    }
     .cost{
-        transform: translate(-50%,170px);
+        transform: translate(-50%,120px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,170px);
+        transform: translate(-50%,120px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1.5%,190px);
+        transform: translate(-1.5%,140px);
         font-size: small;
     }
 }

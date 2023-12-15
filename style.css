@@ -36,7 +36,7 @@ h1{
 .background{
     position: absolute;
     min-height: 100%;
-    min-width:100%;
+    max-width:100%;
     transform: translate(-2%,-2%);
     filter: blur(3px);
 }
@@ -83,15 +83,15 @@ a{
         max-height: 290px;
     }
     .cost{
-        transform: translate(-50%,250px);
+        transform: translate(-50%,170px);
         font-size: x-large;
     }
     a{
-        transform: translate(-50%,250px);
+        transform: translate(-50%,170px);
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1.5%,280px);
+        transform: translate(-1.5%,190px);
         font-size: small;
     }
 }

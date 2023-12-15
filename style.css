@@ -13,7 +13,7 @@ h1{
 .p1{
     position: absolute;
     top: 10%;
-    font-size: 75vw;
+    font-size: 0.75vw;
     text-align: center;
     width: 100%;
     z-index: 1;
@@ -73,7 +73,7 @@ a{
         transform: translate(-50%,-30%);
     }
     .p1{
-        font-size:95vh;
+        font-size:0.95vw;
         transform: translate(-1.5%,3%);
     }
     .protein{

@@ -141,7 +141,7 @@ a{
         font-size: x-large;
     }
     .p1{
-        font-size: small;
+        font-size: medium;
         transform: translate(-1%,0%);
     }
     .protein{
@@ -152,6 +152,7 @@ a{
         transform: translate(-50%,8%);
     }
     .background{
+        min-width:100%;
         height:100%
     }
     .cost{
@@ -163,8 +164,8 @@ a{
         font-size: x-large;
     }
     .p2{
-        transform: translate(-1%,185px);
-        font-size: small;
+        transform: translate(-1%,200px);
+        font-size: medium;
     }
 }
 @media (min-width:801px)and (min-height:590px) {

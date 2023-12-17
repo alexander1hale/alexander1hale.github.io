@@ -1,3 +1,9 @@
+html{
+    height:-webkit-fill-available;
+}
+body{
+    height:-webkit-fill-available;
+}
 h1{
     position: absolute;
     text-align: center;

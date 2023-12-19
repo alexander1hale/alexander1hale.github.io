@@ -15,7 +15,7 @@ h1{
     white-space: nowrap;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    text-shadow: 0.03em 0 white, 0 0.03em white, -0.03em 0 white, 0 -0.03em white;
+    text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 .p1{
@@ -30,7 +30,7 @@ h1{
     backdrop-filter: blur(10px);
     border-radius: 20px;
     word-wrap: break-word;
-    text-shadow: 0.005em 0 white, 0 0.005em white, -0.005em 0 white, 0 -0.005em white;
+    ttext-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 .protein{
@@ -57,7 +57,7 @@ h1{
     z-index: 1;
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    text-shadow: 0.03em 0 white, 0 0.03em white, -0.03em 0 white, 0 -0.03em white;
+    text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 a{
@@ -68,7 +68,7 @@ a{
     backdrop-filter: blur(10px);
     border-radius: 20px;
     margin: auto;
-    text-shadow: 0.03em 0 white, 0 0.03em white, -0.03em 0 white, 0 -0.03em white;
+    text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 .p2{
@@ -80,7 +80,7 @@ a{
     backdrop-filter: blur(10px);
     transform: translate(-2%,330%);
     border-radius: 20px;
-    text-shadow: 0.005em 0 white, 0 0.005em white, -0.005em 0 white, 0 -0.005em white;
+    text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 @media only screen and (min-width:320px) {

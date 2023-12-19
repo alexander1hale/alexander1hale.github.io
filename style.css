@@ -30,7 +30,7 @@ h1{
     backdrop-filter: blur(10px);
     border-radius: 20px;
     word-wrap: break-word;
-    text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
+    text-shadow: 0.03em 0 0.09em rgba(255,255,255,0.5), 0 0.03em 0.09em rgba(255,255,255,0.5), -0.03em 0 0.09em rgba(255,255,255,0.5), 0 -0.03em 0.09em rgba(255,255,255,0.5);
     font-weight: bold;
 }
 .protein{

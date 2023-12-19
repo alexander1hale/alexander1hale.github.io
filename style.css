@@ -73,7 +73,7 @@ a{
 }
 .p2{
     position: absolute;
-    font-size: 65%;
+    font-size: 0.75vw;
     text-align: center;
     width: 100%;
     z-index: 1;

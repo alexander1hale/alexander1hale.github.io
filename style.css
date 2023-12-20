@@ -36,6 +36,7 @@ h1{
     height: auto;
     display: flex;
     justify-content: center;
+    translate-y:50%;
 }
 .background{
     position: absolute;

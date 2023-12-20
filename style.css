@@ -5,7 +5,7 @@ body{
     height:-webkit-fill-available;
 }
 h1{
-    position: absolute;
+    position: relative;
     text-align: center;
     font-size: 150%;
     top: 0%;
@@ -19,7 +19,7 @@ h1{
     font-weight: bold;
 }
 .p1{
-    position: absolute;
+    position: relative;
     top: 10%;
     font-size: 0.75vw;
     text-align: center;
@@ -34,7 +34,7 @@ h1{
     font-weight: bold;
 }
 .protein{
-    position: absolute;
+    position: relative;
     width: 35%;
     top: 22%;
     left: 50%;
@@ -51,7 +51,7 @@ h1{
     filter: blur(3px);
 }
 .cost{
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%,200%);
     z-index: 1;
@@ -61,7 +61,7 @@ h1{
     font-weight: bold;
 }
 a{
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%,115%);
     z-index: 1;
@@ -72,7 +72,7 @@ a{
     font-weight: bold;
 }
 .p2{
-    position: absolute;
+    position: relative;
     font-size: 0.75vw;
     text-align: center;
     width: 100%;

@@ -18,7 +18,7 @@ h1{
 .p1{
     position: relative;
     font-size: 0.75vw;
-     text-align: justify;
+     text-align: center;
     width: 100%;
     z-index: 1;
     white-space: nowrap;

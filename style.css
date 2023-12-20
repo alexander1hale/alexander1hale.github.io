@@ -91,6 +91,7 @@ a{
     }
     .background{
         width:100%
+        transform:translate(-2%,-2%)
     }
     .cost{
         font-size: x-large;

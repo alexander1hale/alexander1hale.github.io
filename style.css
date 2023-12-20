@@ -36,7 +36,7 @@ h1{
     height: auto;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, -50%);
 }
 .background{
     position: absolute;
@@ -53,7 +53,7 @@ h1{
     font-weight: bold;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, -50%);
 }
 a{
     position: relative;
@@ -65,7 +65,7 @@ a{
     font-weight: bold;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, -50%);
 }
 .p2{
     position: relative;

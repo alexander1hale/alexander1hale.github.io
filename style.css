@@ -42,7 +42,9 @@ h1{
 }
 .background{
     position: absolute;
-    background-size:cover;
+    size:cover;
+    min-height:100%;
+    max-width:105%;
     filter: blur(3px);
     transform: translate(-2%, -2%);
 }

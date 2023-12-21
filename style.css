@@ -45,6 +45,7 @@ h1{
     min-height: 100%;
     max-width:100%;
     filter: blur(3px);
+    transform: translate(-2%, -2%);
 }
 .cost{
     position: relative;
@@ -91,7 +92,6 @@ a{
     }
     .background{
         width:100%
-        transform:translate(-2%,-2%)
     }
     .cost{
         font-size: x-large;

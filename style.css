@@ -32,7 +32,6 @@ h1{
     position: relative;
     width: 35%;
     z-index: 1;
-    max-width: 160px;
     height: auto;
     display: flex;
     justify-content: center;

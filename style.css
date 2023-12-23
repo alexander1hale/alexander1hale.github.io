@@ -89,13 +89,13 @@ a{
     }
     .protein{
         min-width: 255px;
-        height: auto;
+        height: 33%;
     }
     .background{
         width:100%
     }
     .cost{
-        font-size: x-large;
+        font-size: xx-large;
     }
     a{
         font-size: x-large;

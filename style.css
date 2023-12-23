@@ -48,7 +48,6 @@ h1{
 }
 .cost{
     position: relative;
-    transform:translate(0,-2%;
     font-size:x-large;
     z-index: 1;
     backdrop-filter: blur(10px);

@@ -85,11 +85,11 @@ a{
         text-shadow: 2px 2px 13px #fff, -2px 2px 13px #fff,2px -2px 13px #fff, -2px -2px 13px #fff;
     }
     h1{
-        font-size:7.5vw;
+        font-size:100%;
         height:auto;
     }
     .p1{
-        font-size:5vw;
+        font-size:100%;
         height:auto;
     }
     .protein{
@@ -101,15 +101,15 @@ a{
         height:100%;
     }
     .cost{
-        font-size:8.5vw;
+        font-size:100%;
         height:auto;
     }
     a{
-        font-size:8.5vw;
+        font-size:100%;
         height:auto;
     }
     .p2{
-        font-size:5vw;
+        font-size:100%;
         height:auto;
     }
 }

@@ -3,7 +3,7 @@ html{
 }
 body{
     height:-webkit-fill-available;
-    font-weight:bolder;
+    font-weight:1000;
 }
 h1{
     position: relative;
@@ -93,8 +93,8 @@ a{
         height:auto;
     }
     .protein{
-        min-width: 255px;
-        height: 33%;
+        min-width: 355px;
+        height: 41%;
     }
     .background{
         width:100%;

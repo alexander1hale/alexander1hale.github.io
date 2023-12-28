@@ -94,7 +94,7 @@ a{
     }
     .protein{
         min-width: 355px;
-        height: 80%;
+        min-height: 100%;
     }
     .background{
         width:100%;
@@ -121,7 +121,7 @@ a{
         font-size: small;
     }
     .protein{
-        width: 155px;
+        width: 115px;
         height:auto;
         max-height: 290px;
     }
@@ -149,7 +149,7 @@ a{
     .protein{
         width: 22%;
         height:auto;
-        min-height: 230px;
+        min-height: 140px;
         max-height: 310px;
     }
     .background{
@@ -171,10 +171,11 @@ a{
         font-size: x-large
 }
     .p1{
-        font-size: small;
+        font-size: medium;
     }
     .protein{
         height: auto;
+        min-width:120px;
         width: 21%;
     }
     .cost{
@@ -184,7 +185,7 @@ a{
         font-size: xx-large;
     }
     .p2{
-        font-size: small;
+        font-size: medium;
     }
 }
 @media (min-width:1025px) and ( min-height:700px) {
@@ -197,7 +198,7 @@ a{
     .protein{
         height: 48%;
         width: 20%;
-        max-width: 230px;
+        max-width: 180px;
     }
     .cost{
         font-size: x-large;

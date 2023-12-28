@@ -94,7 +94,8 @@ a{
     }
     .protein{
         min-width: 355px;
-        min-height: 100%;
+        width:35%;
+        min-height: 160%;
     }
     .background{
         width:100%;

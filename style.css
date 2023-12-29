@@ -188,8 +188,55 @@ a{
     }
 }
 @media (min-width:480px)and (min-height:500px) {
-    body{
-        backdrop-filter: 10px;
+    .p1{
+        font-size: clamp(9.2px, 2vw, 15px);
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur{
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box2{
+        position: absolute;
+        z-index: 1;
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 14vw, 80px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur2{
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 12.4vw, 90px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box5{
+        position: absolute;
+        z-index: 1;
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(10px, 8vw, 61px);
+        left: 50%;
+        transform: translate(-50%,0px);
+        transform: translateY(clamp(12px,1.2vh,80px));
+        border-radius: 20px;
+    }
+    .blur5{
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(16px, 8vw, 58px);
+        border-radius: 20px;
+        opacity: 28%;
+        transform: translate(-50%,0px);
     }
     .protein{
         width: 115px;
@@ -202,8 +249,55 @@ a{
     }
 }
 @media (min-width:600px)and (min-height:500px) {
-    body{
-        backdrop-filter: 10px;
+    .p1{
+        font-size: clamp(9.2px, 2vw, 15px);
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur{
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box2{
+        position: absolute;
+        z-index: 1;
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 14vw, 80px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur2{
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 12.4vw, 90px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box5{
+        position: absolute;
+        z-index: 1;
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(10px, 8vw, 61px);
+        left: 50%;
+        transform: translate(-50%,0px);
+        transform: translateY(clamp(12px,1.2vh,80px));
+        border-radius: 20px;
+    }
+    .blur5{
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(16px, 8vw, 58px);
+        border-radius: 20px;
+        opacity: 28%;
+        transform: translate(-50%,0px);
     }
     .protein{
         width: 22%;
@@ -217,8 +311,55 @@ a{
     }
 }
 @media (min-width:801px)and (min-height:590px) {
-    body{
-        backdrop-filter: 10px;
+    .p1{
+        font-size: clamp(9.2px, 2vw, 15px);
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur{
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box2{
+        position: absolute;
+        z-index: 1;
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 14vw, 80px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur2{
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 12.4vw, 90px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box5{
+        position: absolute;
+        z-index: 1;
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(10px, 8vw, 61px);
+        left: 50%;
+        transform: translate(-50%,0px);
+        transform: translateY(clamp(12px,1.2vh,80px));
+        border-radius: 20px;
+    }
+    .blur5{
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(16px, 8vw, 58px);
+        border-radius: 20px;
+        opacity: 28%;
+        transform: translate(-50%,0px);
     }
     .protein{
         height: auto;
@@ -228,8 +369,55 @@ a{
     }
 }
 @media (min-width:1025px) and ( min-height:700px) {
-    body{
-        backdrop-filter: 10px;
+    .p1{
+        font-size: clamp(9.2px, 2vw, 15px);
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur{
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box2{
+        position: absolute;
+        z-index: 1;
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 14vw, 80px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur2{
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 12.4vw, 90px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box5{
+        position: absolute;
+        z-index: 1;
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(10px, 8vw, 61px);
+        left: 50%;
+        transform: translate(-50%,0px);
+        transform: translateY(clamp(12px,1.2vh,80px));
+        border-radius: 20px;
+    }
+    .blur5{
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(16px, 8vw, 58px);
+        border-radius: 20px;
+        opacity: 28%;
+        transform: translate(-50%,0px);
     }
     .protein{
         height: auto;
@@ -238,8 +426,55 @@ a{
     }
 }
 @media (min-width:1601px) and (min-height:900px){
-    body{
-        backdrop-filter: 10px;
+    .p1{
+        font-size: clamp(9.2px, 2vw, 15px);
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur{
+        width:clamp(160px, 85vw, 670px);
+        height: clamp(16px, 10vw, 76px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box2{
+        position: absolute;
+        z-index: 1;
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 14vw, 80px);
+        left: 50%;
+        transform: translate(-50%, -0.2vh);
+        border-radius: 20px;
+    }
+    .blur2{
+        width:clamp(200px, 95vw, 800px);
+        height: clamp(20px, 12.4vw, 90px);
+        border-radius: 20px;
+        opacity: 28%;
+    }
+    .box5{
+        position: absolute;
+        z-index: 1;
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(10px, 8vw, 61px);
+        left: 50%;
+        transform: translate(-50%,0px);
+        transform: translateY(clamp(12px,1.2vh,80px));
+        border-radius: 20px;
+    }
+    .blur5{
+        width:clamp(100px, 80vw, 550px);
+        height: clamp(16px, 8vw, 58px);
+        border-radius: 20px;
+        opacity: 28%;
+        transform: translate(-50%,0px);
     }
     .protein{
         height: auto;

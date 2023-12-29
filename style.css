@@ -163,6 +163,17 @@ a{
     body{
         text-shadow: 2px 2px 13px #fff, -2px 2px 13px #fff,2px -2px 13px #fff, -2px -2px 13px #fff;
     }
+    .box,.blur{
+        width:80vw;
+        height:9vh;
+    }
+    .p1{
+        max-width:96vw;
+    }
+    .box2,.blur2{
+        width:98vw;
+        height:12vh;
+    }
     .protein{
         min-width: 155px;
         width: auto;
@@ -170,6 +181,10 @@ a{
     .background{
         width:100%;
         height:100%;
+    }
+    .box5,blur5{
+        width:92vw;
+        height:9vh;
     }
 }
 @media (min-width:480px)and (min-height:500px) {

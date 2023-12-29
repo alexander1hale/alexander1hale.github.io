@@ -165,14 +165,14 @@ a{
     }
     .box,.blur{
         width:80vw;
-        height:6vh;
+        height:6.2vh;
     }
     .p1{
-        font-size: clamp(6px, 1.5vw, 12px);
+        font-size: clamp(6px, 1.6vw, 12px);
     }
     .box2,.blur2{
         width:98vw;
-        height:11vh;
+        height:9vh;
     }
     .protein{
         min-width: 155px;

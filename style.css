@@ -27,7 +27,7 @@ h1{
     text-transform: uppercase;
     position: relative;
     text-align: center;
-    font-size: clamp(20px,4vw,32px);
+    font-size: clamp(17.5px,4vw,32px);
     z-index: 1;
     white-space: nowrap;
     border-radius: 20px;

@@ -11,15 +11,15 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(160px, 85vw, 670px);
-    height: clamp(16px, 10vw, 76px);
+    width:clamp(400px, 88vmin, 670px);
+    height: clamp(50px, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(160px, 85vw, 670px);
-    height: clamp(16px, 10vw, 76px);
+    width:clamp(400px, 88vmin, 670px);
+    height: clamp(50px, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
 }
@@ -27,7 +27,7 @@ h1{
     text-transform: uppercase;
     position: relative;
     text-align: center;
-    font-size: clamp(17.5px,4vw,32px);
+    font-size: clamp(8px,4vw,32px);
     z-index: 1;
     white-space: nowrap;
     border-radius: 20px;
@@ -36,21 +36,21 @@ h1{
 .box2{
     position: absolute;
     z-index: 1;
-    width:clamp(200px, 95vw, 800px);
-    height: clamp(20px, 14vw, 80px);
+    width:clamp(430px, 96.5vw, 800px);
+    height: clamp(60px, 12.4vw, 80px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur2{
-    width:clamp(200px, 95vw, 800px);
-    height: clamp(20px, 12.4vw, 90px);
+    width:clamp(430px, 96.5vw, 800px);
+    height: clamp(60px, 12.4vw, 90px);
     border-radius: 20px;
     opacity: 28%;
 }
 .p1{
     position: relative;
-    font-size: clamp(9.2px, 2vw, 15px);
+    font-size: clamp(8.3px, 2.1vmin, 15px);
     text-align: center;
     width: 100%;
     z-index: 1;
@@ -77,8 +77,8 @@ h1{
     bottom:0;
     right:0;
     position: absolute;
-    min-height:100%;
-    min-width:100%;
+    min-height:105%;
+    min-width:105%;
     filter: blur(3px);
     overflow-x:hidden;
     overflow-y: hidden;
@@ -135,16 +135,16 @@ a{
 .box5{
     position: absolute;
     z-index: 1;
-    width:clamp(100px, 80vw, 550px);
-    height: clamp(10px, 8vw, 61px);
+    width:clamp(340px, 80vw, 550px);
+    height: clamp(32px, 8vw, 61px);
     left: 50%;
     transform: translate(-50%,0px);
     transform: translateY(clamp(12px,1.2vh,80px));
     border-radius: 20px;
 }
 .blur5{
-    width:clamp(100px, 80vw, 550px);
-    height: clamp(16px, 8vw, 58px);
+    width:clamp(340px, 80vw, 550px);
+    height: clamp(32px, 8vw, 58px);
     border-radius: 20px;
     opacity: 28%;
     transform: translate(-50%,0px);
@@ -163,17 +163,6 @@ a{
     body{
         text-shadow: 2px 2px 13px #fff, -2px 2px 13px #fff,2px -2px 13px #fff, -2px -2px 13px #fff;
     }
-    .box,.blur{
-        width:80vw;
-        height:6.2vh;
-    }
-    .p1{
-        font-size: clamp(6px, 1.6vw, 12px);
-    }
-    .box2,.blur2{
-        width:98vw;
-        height:9vh;
-    }
     .protein{
         min-width: 155px;
         width: auto;
@@ -182,61 +171,10 @@ a{
         width:100%;
         height:100%;
     }
-    .box5,.blur5{
-        width:92vw;
-        height:5.2vh;
-    }
 }
 @media (min-width:480px)and (min-height:500px) {
-    .p1{
-        font-size: clamp(9.2px, 2vw, 15px);
-    }
-    .box{
-        position: absolute;
-        z-index: 1;
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur{
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box2{
-        position: absolute;
-        z-index: 1;
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 14vw, 80px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur2{
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 12.4vw, 90px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box5{
-        position: absolute;
-        z-index: 1;
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(10px, 8vw, 61px);
-        left: 50%;
-        transform: translate(-50%,0px);
-        transform: translateY(clamp(12px,1.2vh,80px));
-        border-radius: 20px;
-    }
-    .blur5{
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(16px, 8vw, 58px);
-        border-radius: 20px;
-        opacity: 28%;
-        transform: translate(-50%,0px);
+    body{
+        backdrop-filter: 10px;
     }
     .protein{
         width: 115px;
@@ -249,55 +187,8 @@ a{
     }
 }
 @media (min-width:600px)and (min-height:500px) {
-    .p1{
-        font-size: clamp(9.2px, 2vw, 15px);
-    }
-    .box{
-        position: absolute;
-        z-index: 1;
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur{
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box2{
-        position: absolute;
-        z-index: 1;
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 14vw, 80px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur2{
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 12.4vw, 90px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box5{
-        position: absolute;
-        z-index: 1;
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(10px, 8vw, 61px);
-        left: 50%;
-        transform: translate(-50%,0px);
-        transform: translateY(clamp(12px,1.2vh,80px));
-        border-radius: 20px;
-    }
-    .blur5{
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(16px, 8vw, 58px);
-        border-radius: 20px;
-        opacity: 28%;
-        transform: translate(-50%,0px);
+    body{
+        backdrop-filter: 10px;
     }
     .protein{
         width: 22%;
@@ -311,55 +202,8 @@ a{
     }
 }
 @media (min-width:801px)and (min-height:590px) {
-    .p1{
-        font-size: clamp(9.2px, 2vw, 15px);
-    }
-    .box{
-        position: absolute;
-        z-index: 1;
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur{
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box2{
-        position: absolute;
-        z-index: 1;
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 14vw, 80px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur2{
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 12.4vw, 90px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box5{
-        position: absolute;
-        z-index: 1;
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(10px, 8vw, 61px);
-        left: 50%;
-        transform: translate(-50%,0px);
-        transform: translateY(clamp(12px,1.2vh,80px));
-        border-radius: 20px;
-    }
-    .blur5{
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(16px, 8vw, 58px);
-        border-radius: 20px;
-        opacity: 28%;
-        transform: translate(-50%,0px);
+    body{
+        backdrop-filter: 10px;
     }
     .protein{
         height: auto;
@@ -369,55 +213,8 @@ a{
     }
 }
 @media (min-width:1025px) and ( min-height:700px) {
-    .p1{
-        font-size: clamp(9.2px, 2vw, 15px);
-    }
-    .box{
-        position: absolute;
-        z-index: 1;
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur{
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box2{
-        position: absolute;
-        z-index: 1;
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 14vw, 80px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur2{
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 12.4vw, 90px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box5{
-        position: absolute;
-        z-index: 1;
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(10px, 8vw, 61px);
-        left: 50%;
-        transform: translate(-50%,0px);
-        transform: translateY(clamp(12px,1.2vh,80px));
-        border-radius: 20px;
-    }
-    .blur5{
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(16px, 8vw, 58px);
-        border-radius: 20px;
-        opacity: 28%;
-        transform: translate(-50%,0px);
+    body{
+        backdrop-filter: 10px;
     }
     .protein{
         height: auto;
@@ -426,55 +223,8 @@ a{
     }
 }
 @media (min-width:1601px) and (min-height:900px){
-    .p1{
-        font-size: clamp(9.2px, 2vw, 15px);
-    }
-    .box{
-        position: absolute;
-        z-index: 1;
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur{
-        width:clamp(160px, 85vw, 670px);
-        height: clamp(16px, 10vw, 76px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box2{
-        position: absolute;
-        z-index: 1;
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 14vw, 80px);
-        left: 50%;
-        transform: translate(-50%, -0.2vh);
-        border-radius: 20px;
-    }
-    .blur2{
-        width:clamp(200px, 95vw, 800px);
-        height: clamp(20px, 12.4vw, 90px);
-        border-radius: 20px;
-        opacity: 28%;
-    }
-    .box5{
-        position: absolute;
-        z-index: 1;
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(10px, 8vw, 61px);
-        left: 50%;
-        transform: translate(-50%,0px);
-        transform: translateY(clamp(12px,1.2vh,80px));
-        border-radius: 20px;
-    }
-    .blur5{
-        width:clamp(100px, 80vw, 550px);
-        height: clamp(16px, 8vw, 58px);
-        border-radius: 20px;
-        opacity: 28%;
-        transform: translate(-50%,0px);
+    body{
+        backdrop-filter: 10px;
     }
     .protein{
         height: auto;

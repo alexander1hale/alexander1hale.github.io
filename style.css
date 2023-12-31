@@ -169,6 +169,7 @@ a{
     .protein{
         min-width: 155px;
         width: auto;
+        height:auto;
     }
     .background{
         width:100%;
@@ -190,8 +191,7 @@ a{
     .protein{
         width: 22%;
         height:auto;
-        min-height: 140px;
-        max-height: 310px;
+        max-width:190px;
     }
     .background{
         min-width:100%;
@@ -202,21 +202,20 @@ a{
     .protein{
         height: auto;
         width: 22%;
-        min-height: 140px;
-        max-height: 310px;
+        max-width:190px;
     }
 }
 @media (min-width:1025px) and ( min-height:700px) {
     .protein{
         height: auto;
         width: 23%;
-        max-width: 230px;
+        max-width: 200px;
     }
 }
 @media (min-width:1601px) and (min-height:900px){
     .protein{
         height: auto;
         width: 20%;
-        max-width: 230px;
+        max-width: 205px;
     }
 }

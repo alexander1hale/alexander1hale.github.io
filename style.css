@@ -137,15 +137,15 @@ a{
     position: absolute;
     z-index: 1;
     width:clamp(430px, 96.5vw, 550px);
-    height: clamp(6vh, 8vw, 59px);
+    height: clamp(5.1vh, 8vw, 59px);
     left: 50%;
     transform: translate(-50%,0px);
-    transform: translateY(clamp(12px,1.2vh,80px));
+    transform: translateY(12px);
     border-radius: 20px;
 }
 .blur5{
     width:clamp(430px, 96.5vw, 550px);
-    height: clamp(6vh, 8vw, 59px);
+    height: clamp(5.1vh, 8vw, 59px);
     border-radius: 20px;
     opacity: 28%;
     transform: translate(-50%,0px);

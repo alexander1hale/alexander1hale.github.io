@@ -37,20 +37,20 @@ h1{
     position: absolute;
     z-index: 1;
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(8.5vh, 12.8vw, 80px);
+    height: clamp(9.5vh, 12.8vw, 80px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur2{
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(8.5vh, 12.8vw, 90px);
+    height: clamp(9.5vh, 12.8vw, 90px);
     border-radius: 20px;
     opacity: 28%;
 }
 .p1{
     position: relative;
-    font-size: clamp(14.5px, 2.1vw, 20px);
+    font-size: clamp(13.5px, 2.1vw, 15px);
     text-wrap: balance;
     max-width: 700px;
     text-align: center;

@@ -11,14 +11,14 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(423px, 88vw, 670px);
+    width:clamp(423px, 94vw, 670px);
     height: clamp(5.5vh, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(390px, 88vw, 670px);
+    width:clamp(390px, 94vw, 670px);
     height: clamp(5.5vh, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
@@ -136,7 +136,7 @@ a{
 .box5{
     position: absolute;
     z-index: 1;
-    width:clamp(430px, 80vw, 550px);
+    width:clamp(430px, 96.5vw, 550px);
     height: clamp(6vh, 8vw, 59px);
     left: 50%;
     transform: translate(-50%,0px);
@@ -144,7 +144,7 @@ a{
     border-radius: 20px;
 }
 .blur5{
-    width:clamp(430px, 80vw, 550px);
+    width:clamp(430px, 96.5vw, 550px);
     height: clamp(6vh, 8vw, 59px);
     border-radius: 20px;
     opacity: 28%;
@@ -155,8 +155,10 @@ a{
     font-size: clamp(12px, 2.5vw, 20px);
     text-align: center;
     text-wrap: balance;
-    max-width: 700px;
+    max-width: 550px;
     z-index: 1;
+    left: 50%;
+    transform: translate(-50%,0%);
     border-radius: 20px;
     transform: translateY(clamp(1px,0.2vh,10px));
     text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);

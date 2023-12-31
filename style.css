@@ -186,7 +186,7 @@ a{
         min-height:100%;
     }
     .p2{
-        transform: translateY(0px);
+        transform: translateY(14px);
     }
 }
 @media (min-width:600px)and (min-height:500px) {

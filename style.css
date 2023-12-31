@@ -11,14 +11,14 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(8.2vh, 88vw, 670px);
+    width:clamp(10.2vh, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(8.2vh, 88vw, 670px);
+    width:clamp(10.2vh, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
@@ -37,14 +37,14 @@ h1{
     position: absolute;
     z-index: 1;
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(9.5vh, 12.8vw, 80px);
+    height: clamp(9.5vh, 13.8vw, 120px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur2{
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(9.5vh, 12.8vw, 90px);
+    height: clamp(9.5vh, 13.8vw, 120px);
     border-radius: 20px;
     opacity: 28%;
 }
@@ -137,7 +137,7 @@ a{
     position: absolute;
     z-index: 1;
     width:clamp(340px, 80vw, 550px);
-    height: clamp(32px, 8vw, 61px);
+    height: clamp(6vh, 8vw, 61px);
     left: 50%;
     transform: translate(-50%,0px);
     transform: translateY(clamp(12px,1.2vh,80px));
@@ -145,7 +145,7 @@ a{
 }
 .blur5{
     width:clamp(340px, 80vw, 550px);
-    height: clamp(32px, 8vw, 58px);
+    height: clamp(6vh, 8vw, 58px);
     border-radius: 20px;
     opacity: 28%;
     transform: translate(-50%,0px);

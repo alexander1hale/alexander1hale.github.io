@@ -11,15 +11,15 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(423px, 97vw, 730px);
-    height: clamp(5.5vh, 10vw, 76px);
+    width:clamp(423px, 97vw, 780px);
+    height: clamp(6.3vh, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(423px, 97vw, 730px);
-    height: clamp(5.5vh, 10vw, 76px);
+    width:clamp(423px, 97vw, 780px);
+    height: clamp(6.3vh, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
 }

@@ -11,14 +11,14 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(400px, 88vw, 670px);
+    width:clamp(8.2vh, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(400px, 88vw, 670px);
+    width:clamp(8.2vh, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
@@ -37,20 +37,20 @@ h1{
     position: absolute;
     z-index: 1;
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(7.5vh, 12.8vw, 80px);
+    height: clamp(10.5vh, 12.8vw, 80px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur2{
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(7.5vh, 12.8vw, 90px);
+    height: clamp(10.5vh, 12.8vw, 90px);
     border-radius: 20px;
     opacity: 28%;
 }
 .p1{
     position: relative;
-    font-size: clamp(8.3px, 2.1vw, 15px);
+    font-size: clamp(11.5px, 2.1vw, 15px);
     text-wrap: balance;
     max-width: 700px;
     text-align: center;
@@ -101,7 +101,7 @@ h1{
 }
 .cost{
     position: relative;
-    font-size: clamp(20px,4.6vw,32px);
+    font-size: clamp(8px,4vw,32px);
     z-index: 1;
     border-radius: 20px;
     text-shadow: 0.03em 0 0.03em rgba(255,255,255,0.5), 0 0.03em 0.03em rgba(255,255,255,0.5), -0.03em 0 0.03em rgba(255,255,255,0.5), 0 -0.03em 0.03em rgba(255,255,255,0.5);
@@ -125,7 +125,7 @@ h1{
 }
 a{
     position: relative;
-    font-size: clamp(20px,4.6vw,32px);
+    font-size: clamp(8px,4vw,32px);
     z-index: 1;
     border-radius: 20px;
     margin: auto;

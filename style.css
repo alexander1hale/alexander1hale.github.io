@@ -11,14 +11,14 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(423px, 94vw, 670px);
+    width:clamp(423px, 96vw, 670px);
     height: clamp(5.5vh, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(390px, 94vw, 670px);
+    width:clamp(423px, 96vw, 670px);
     height: clamp(5.5vh, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
@@ -157,6 +157,7 @@ a{
     text-wrap: balance;
     max-width: 550px;
     margin:auto;
+    transform: translate-y(7px);
     z-index: 1;
     border-radius: 20px;
     transform: translateY(clamp(1px,0.2vh,10px));

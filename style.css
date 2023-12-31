@@ -11,14 +11,14 @@ body{
 .box{
     position: absolute;
     z-index: 1;
-    width:clamp(400px, 88vmin, 670px);
+    width:clamp(400px, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur{
-    width:clamp(400px, 88vmin, 670px);
+    width:clamp(400px, 88vw, 670px);
     height: clamp(50px, 10vw, 76px);
     border-radius: 20px;
     opacity: 28%;
@@ -37,26 +37,27 @@ h1{
     position: absolute;
     z-index: 1;
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(60px, 12.4vw, 80px);
+    height: clamp(7.5vh, 12.8vw, 80px);
     left: 50%;
     transform: translate(-50%, -0.2vh);
     border-radius: 20px;
 }
 .blur2{
     width:clamp(430px, 96.5vw, 800px);
-    height: clamp(60px, 12.4vw, 90px);
+    height: clamp(7.5vh, 12.8vw, 90px);
     border-radius: 20px;
     opacity: 28%;
 }
 .p1{
     position: relative;
-    font-size: clamp(8.3px, 2.1vmin, 15px);
+    font-size: clamp(8.3px, 2.1vw, 15px);
+    text-wrap: balance;
+    max-width: 700px;
     text-align: center;
-    width: 100%;
     z-index: 1;
-    white-space: nowrap;
     border-radius: 20px;
-    word-wrap: break-word;
+    left: 50%;
+    transform: translate(-50%,0%);
     text-shadow: 0.03em 0 0.09em rgba(255,255,255,0.5), 0 0.03em 0.09em rgba(255,255,255,0.5), -0.03em 0 0.09em rgba(255,255,255,0.5), 0 -0.03em 0.09em rgba(255,255,255,0.5);
 }
 .protein{
@@ -173,9 +174,6 @@ a{
     }
 }
 @media (min-width:480px)and (min-height:500px) {
-    body{
-        backdrop-filter: 10px;
-    }
     .protein{
         width: 115px;
         height:auto;
@@ -187,9 +185,6 @@ a{
     }
 }
 @media (min-width:600px)and (min-height:500px) {
-    body{
-        backdrop-filter: 10px;
-    }
     .protein{
         width: 22%;
         height:auto;
@@ -202,9 +197,6 @@ a{
     }
 }
 @media (min-width:801px)and (min-height:590px) {
-    body{
-        backdrop-filter: 10px;
-    }
     .protein{
         height: auto;
         width: 22%;
@@ -213,9 +205,6 @@ a{
     }
 }
 @media (min-width:1025px) and ( min-height:700px) {
-    body{
-        backdrop-filter: 10px;
-    }
     .protein{
         height: auto;
         width: 23%;
@@ -223,9 +212,6 @@ a{
     }
 }
 @media (min-width:1601px) and (min-height:900px){
-    body{
-        backdrop-filter: 10px;
-    }
     .protein{
         height: auto;
         width: 20%;

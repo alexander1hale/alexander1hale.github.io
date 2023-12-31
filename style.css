@@ -156,6 +156,7 @@ a{
     text-align: center;
     text-wrap: balance;
     max-width: 550px;
+    margin:auto;
     z-index: 1;
     border-radius: 20px;
     transform: translateY(clamp(1px,0.2vh,10px));
